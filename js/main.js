@@ -1,9 +1,5 @@
 $(function($) {
-  $('.bg-switcher').bgSwitcher({
-      images: ['images/switcher1.png','images/switcher2.png','images/switcher3.png','images/switcher4.png'],
-      interval: 5000,
-      loop: true
-  });
+  
 
   $('.slider').slick({
     arrows:true,
