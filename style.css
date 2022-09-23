@@ -96,7 +96,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .text p{
@@ -104,7 +104,7 @@ li a:hover {
    color: #fff;
    text-align: left;
    display : block;
-   padding: 0px 70px 70px 70px;
+   padding: 0px 70px 40px 70px;
    padding-top: 50px;
    width: 85%;
 }
@@ -112,13 +112,17 @@ li a:hover {
 
 .intro_1 {
  display: flex;
+ padding-top: 50px;
+ padding-bottom: 40px;
  justify-content: center;
  margin: 0 auto;
  background-color: #832827;
+ letter-spacing: 0;
 }
 
 .buyou {
     background-color: #832827;
+    padding-bottom: 30px;
 }
 
 /*theme上書き*/
@@ -147,6 +151,7 @@ li a:hover {
     display : block;
     padding: 0;
     width: 85%;
+    padding-top: 50px;
     
 }
 
@@ -177,7 +182,7 @@ h3 {
     background-color: #252424;
     text-align: left;
     display : block;
-    padding: 0px 70px 70px 70px;
+    padding: 0px 70px 0px 70px;
 }
 
 .intro1-caption {
@@ -188,22 +193,24 @@ h3 {
 }
 
 .intro1-caption p {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     margin-top: 0;
     line-height: 32px;
     color: #ffffff;
-    margin-right: 80px;
     padding: 60px 0px 0px 0px;
+}
+
+.moji p{
+  margin-right:80px;
+  margin-left: -60px;
+  padding: 60px 0px 0px 0px;
+  width: 410px;
 }
 
 .second{
     background-color: #252424;
 }
 
-.moji p{
-    margin-right: 80px;
-    padding: 80px 0px 0px 0px;
-}
 
 
 
@@ -327,6 +334,8 @@ h3 {
     font-size: 36px;
   }
   
+/*雲*/
+
   .kumo1 {
     position: absolute;
     left: 0;
@@ -421,6 +430,7 @@ h3 {
     align-items: center;
     margin-bottom: 40px;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .kamon p {
@@ -459,10 +469,15 @@ h3 {
 
 
 
-h4 {
-    background-color: #252424;
+.cooperation p {
+    background-color:#252424;
     color: #fff;
-    font-size: 40px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.cooperation a{
+  color: #832827;
 }
 
 
@@ -470,7 +485,6 @@ h4 {
 /*Access */
 
 #schools{
-  background-color: #832827;
   padding: 100px 0;
 }
 
@@ -478,6 +492,7 @@ h4 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .access-box{
@@ -507,9 +522,19 @@ height: 250px;
   text-align: center;
   background-color: #d3d3d3;
   color: #252424;
-  width: 200px;
+  width: 250px;
   margin: auto;
- border-radius: 30px;
+  border-radius: 80px;
+  margin-top: 20px;
+}
+.access-button {
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.gray{
+  background-color: #858c8e;
 }
 
 .schools-access{
@@ -632,11 +657,6 @@ footer p{
         font-size: 13px;
         }
 
-        .moji {
-        width: 100%;
-        margin-bottom: 20px;
-        line-height: 2;
-    }
 
     .intro2 {
         line-height: 2;
