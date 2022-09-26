@@ -20,36 +20,57 @@
     <link rel="stylesheet" href="slick-theme.css">
     <link rel="stylesheet" href="style.css">
 
-   
-    
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'jbj5gqy',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      
+      <script>
+        (function(d) {
+          var config = {
+            kitId: 'jbj5gqy',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      
 </head>
 
     <body>
       <section>
         <div class="video-frame">
-            <div>
                 <p>日本舞踊</p>
-            </div>
-            <video src="/images/hujimusume.mp4" loop autoplay muted></video>
+                <video src="/images/hujimusume.mp4" loop autoplay muted></video>
         </div>
 
         </header>  
     
         <section>
-            <ul class="nav">
-            <li><a href="#explanetion">日本舞踊について</a></li>
-            <li><a href="#type">種類</a></li>
-            <li><a href="#Images">小道具</a></li>
-            <li><a href="#school">流派</a></li>
-            <li><a href="#schools">教室</a></li>
-            </ul>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#explanetion">日本舞踊について</a></li>
+                    <li><a href="#type">種類</a></li>
+                    <li><a href="#Images">小道具</a></li>
+                    <li><a href="#school">流派</a></li>
+                    <li><a href="#schools">教室</a></li>
+                </ul>
+            </nav>
         </section>
 
         <section id="explanetion" class="fuwat section section--red">
+            <span class="kumo1 kumo--kodougu-top"></span>
+           <span class="kumo2 kumo--kodougu-bottom"></span>
         <div class="buyou">
             <div class="about-contents">
-                <span class="kumo1 kumo--kodougu-top"></span>
-                <span class="kumo2 kumo--kodougu-bottom"></span>
                 <h2 class="section-header">日本舞踊とは</h2>
                 <div class="text-wrapper">
                     <p>日本舞踊は歌舞伎舞踊の技法を基本とした舞踊です。男性だけの歌舞伎から派生し、女性による舞踊が加わったことが大きな特色です。
@@ -61,7 +82,7 @@
                         全国の25歳以上日本舞踊・踊り人口は117万8000人であるとされています。</p>  
                 </div>
             </div>
-            <section>
+            <section class="slider-box">
                 <div class="slider">
                     <div><img class="slider-img" src="images/buyou1.png" width="303 alt="></div>
                     <div><img class="slider-img" src="images/buyou2.png" width="303 alt="></div>
@@ -125,8 +146,9 @@
         <span class="kumo1 kumo--kodougu-top"></span>
         <span class="kumo2 kumo--kodougu-bottom"></span>
         <h2 class="section-header">小道具</h2>
-        <p class="summary-text">日本舞踊で主に使われている小道具を６つ紹介。</p>
-        
+        <div class="text-wrapper">
+        <p >日本舞踊で主に使われている小道具を６つ紹介。</p>
+        </div>
         <div class="kodougu-container">
 
           <div class="kodougu">
@@ -176,47 +198,65 @@
     </section>    
 
     <section id="school" class="fuwat section section--black">
+        <span class="kumo1 kumo--kodougu-top"></span>
+        <span class="kumo2 kumo--kodougu-bottom"></span>
         <h3 class="section-header">流派</h3>
-           <div class="kamon">
-                <div>
-                    <img src="images/kamon1.png"  alt="">
-                </div>
-                <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-           </div>
 
-           <div class="kamon">
-            <div>
-                <img src="images/kamon2.png"  alt="">
+            <div class="school-frame" >
+                <p class="school-border">花柳流</p>
             </div>
-            <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-       </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon1.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div>
 
-       <div class="kamon">
-        <div>
-            <img src="images/kamon3.png"  alt="">
-        </div>
-        <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-   </div>
-
-   <div class="kamon">
-    <div>
-        <img src="images/kamon4.png"  alt="">
-    </div>
-    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-</div>
-<div class="kamon">
-    <div>
-        <img src="images/kamon5.png"  alt="">
-    </div>
-    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-</div>
-<div class="kamon">
-    <div>
-        <img src="images/kamon6.png"  alt="">
-    </div>
-    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
-</div>
-
+            <div class="school-frame" >
+                <p class="school-border">藤間流</p>
+            </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon2.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div>
+            <div class="school-frame" >
+                <p class="school-border">若柳流</p>
+            </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon3.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div>
+            <div class="school-frame" >
+                <p class="school-border">西川流</p>
+            </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon4.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div> 
+                <div class="school-frame" >
+                <p class="school-border">坂東流</p>
+            </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon5.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div>  
+                <div class="school-frame" >
+                <p class="school-border">新舞踊</p>
+            </div>
+                <div class="kamon">
+                    <div>
+                    <img src="images/kamon6.png"  alt="">
+                    </div>
+                    <p>初代・花柳寿輔（じゅすけ）によって始まった流派です。<br>5大流派のなかで、最も所属人員が多い組織となっております。寿輔は当初振付師として西川流に所属しており破門されましたが、吉原で芸者たちに踊りを教えていたことから「花柳流」という名称がつけられました。明治歌舞伎の振付師としても活躍し、二代目寿輔も精力的に歌舞伎舞踊を振りつけました。流派内での統一性の維持も図られています。細やかな振り付けや、流派内での統一性が大きな特徴です。</p>
+                </div>             
     </section>
 
 
@@ -369,6 +409,8 @@
 
     <section>
         <section id="schools" class="fuwat section section--black">
+            <span class="kumo1 kumo--kodougu-top"></span>
+        <span class="kumo2 kumo--kodougu-bottom"></span>
            <h3 class="section-headr">最後に</h3>
                 <div class="last text-wrapper" >
                     <p>五大流派をざっとまとめてきましたが、この他にも日本舞踊の流派は多数あり、また、上方舞や地唄舞などもあります。<br>
@@ -387,7 +429,7 @@
 
 
              <footer>
-                   <p>@2022 marupibuyou inc.</p>
+                   <p>2022 marupi.inc All Rights Reserved</p>
              </footer>
 
         </div>
