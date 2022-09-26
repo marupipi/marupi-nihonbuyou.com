@@ -85,8 +85,9 @@ header p {
 .nav a {
     color:#ffffff;
     font-family:"Futura";
-    font-size:40px;
+    font-size:3vw;
     padding:0px 40px 0px;
+    margin: 0 10 0 10px;
     text-align:left;
     text-decoration: none;
     font-family: shinryu, sans-serif;
@@ -207,7 +208,6 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .text-wrapper p {
@@ -248,6 +248,7 @@ h3 {
     text-align: left;
     display : block;
     line-height: 25px;
+    z-index: 999;
 }
 
 
@@ -343,7 +344,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin: 90px 120px 0;
-    padding-bottom: 120px;
+    padding-bottom: 65px;
     justify-content: space-between;
   }
   
@@ -579,6 +580,7 @@ font-size: 30px;
     color: #fff;
     font-size: 15px;
     text-align: left;
+    padding-bottom: 50px
 }
 
 .cooperation a{
@@ -590,7 +592,6 @@ font-size: 30px;
 /*Access */
 
 #schools{
-  padding: 100px 0;
   padding-bottom: -40px;
 }
 
@@ -775,7 +776,7 @@ footer p{
       line-height: 15px;
       padding: 0;
       width: 85%;
-      padding-top: 50px;
+      padding-top: 20px;
   }
     h2 {
         font-size: 32px;
@@ -786,9 +787,10 @@ footer p{
       text-align: left;
       display: block;
       padding: 20px 0px 20px 0px;
-      padding-top: 30px;
+      padding-top: 20px;
       width: 85%;
       font-size: 12px;
+      line-height: 15px;
   }
 
   .section-header {
@@ -809,7 +811,7 @@ footer p{
   margin: 0 auto;
   padding-top: 20px;
   padding-left: 50px;
-  padding-right: 60px;
+  padding-right: 50px;
 }
 
 .kamon p {
@@ -821,10 +823,14 @@ footer p{
   display: flex;
   z-index: 999;
   position: relative;
+  font-size: 10px;
+  line-height: 15px;
+  width: 113%;
 }
 
 .kamon img {
   width: 150px;
+  padding-right: 0px;
 }
 
 
@@ -850,7 +856,7 @@ footer p{
 
 .access-box img {
   width: 140px;
-  height: 80px;
+  height: 88px;
 }
 
 .access-box-title {
@@ -871,6 +877,7 @@ footer p{
   border-radius: 80px;
   margin-top: 20px;
 }
+
 
     .intoro-box{
         display: block;
@@ -950,8 +957,8 @@ footer p{
         font-size: 10px;
         line-height: 15px;
         padding: 0;
-        width: 85%;
-        padding-top: 50px;
+        width: 80%;
+        padding-top: 20px;
     }
         #intro{
         text-align: center;
@@ -960,6 +967,57 @@ footer p{
         .intoro-box img{
             width:90%;
         }
+
+        .type-label-outer{
+          position: absolute;
+          top: -6vw;
+          left: 18vw;
+          width: 36px;
+          height: 104px;
+          border: 1px solid black;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color: white;
+          font-family: kokuryu, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        
+        .type-label{
+          writing-mode: vertical-rl;
+          font-size: 35px;
+          font-family: kokuryu, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        
+        .type-label-outer1 {
+          position: absolute;
+          top: 170vw;
+          left: 18vw;
+          width: 36px;
+          height: 104px;
+          border: 1px solid black;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color: white;
+          font-family: kokuryu, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          z-index: 999;
+          font-size: 60px;
+        }
+        
+        .type-label1 {
+          writing-mode: vertical-rl;
+          font-size: 35px;
+          font-family: kokuryu, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
 
         .down-box{
         display: none;
@@ -1038,11 +1096,6 @@ footer p{
   height: 48px;
 }
 
-.kumo2 {
-  width: 90px;
-  height: 45px;
-}
-
 .kumo--kodougu-top {
   top: 24px;
 }
@@ -1115,6 +1168,8 @@ footer p{
 
 .school-frame {
   width: 70%;
+  padding-top: 45px;
+  padding-left: 36px;
 }
 
 .school-frame p {
@@ -1134,5 +1189,7 @@ footer p{
   height: 58px;
   z-index: 999;
   background-repeat: no-repeat;
+  width: 90px;
+  height: 45px;
 }
 }
