@@ -115,6 +115,7 @@ li a:hover {
    color: #fff;
    text-align: left;
    display : block;
+   line-height: 25px;
    padding: 0px 70px 40px 70px;
    padding-top: 50px;
    width: 85%;
@@ -140,6 +141,55 @@ li a:hover {
   position: relative;
 }
 
+.type-label-outer{
+  position: absolute;
+  top: -2vw;
+  left: 3vw;
+  width: 50px;
+  height: 157px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  font-family: kokuryu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type-label{
+  writing-mode: vertical-rl;
+  font-size: 50px;
+  font-family: kokuryu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.type-label-outer1 {
+  position: absolute;
+  top: 54vw;
+  left: 52vw;
+  width: 50px;
+  height: 157px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  font-family: kokuryu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 999;
+  font-size: 60px;
+}
+
+.type-label1 {
+  writing-mode: vertical-rl;
+  font-size: 50px;
+  font-family: kokuryu, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /*theme上書き*/
 .slick-dots{
@@ -167,6 +217,7 @@ li a:hover {
     padding: 0;
     width: 85%;
     padding-top: 50px;
+    line-height: 25px;
   
 }
 
@@ -194,11 +245,11 @@ h3 {
 
 .last p {
     color: #fff;
-    background-color: #252424;
     text-align: left;
     display : block;
-    padding: 0px 70px 0px 70px;
+    line-height: 25px;
 }
+
 
 .intro1-caption {
     margin-left: 80px;
@@ -465,7 +516,7 @@ h3 {
 }
 
 .kamon p {
-    margin-top: 10px;
+    margin-top: 30px;
     color: #fff;
     display : block;
     padding: 0;
@@ -475,6 +526,7 @@ h3 {
     display: flex;
     z-index: 999;
     position: relative;
+    line-height: 25px;
 }
 
 .kamon img {
@@ -492,7 +544,7 @@ h3 {
 }
 
 .school-frame{
-  padding-top: 30px;
+  padding-top: 45px;
   padding-left: 80px;
 }
 
@@ -539,6 +591,7 @@ font-size: 30px;
 
 #schools{
   padding: 100px 0;
+  padding-bottom: -40px;
 }
 
 .access-wrap{
@@ -550,6 +603,7 @@ font-size: 30px;
 
 .access-box{
   margin-left: 50px;
+  z-index: 999;
 }
 
 .access-box-title{
@@ -612,7 +666,7 @@ height: 250px;
 }
 
 .kamon-border{
-  border-bottom: 4px solid #D9D9D9;;
+  border-bottom: 2px solid #D9D9D9;;
   width: 600%;
 }
 
@@ -629,8 +683,10 @@ footer {
 }
 footer p{
     color: #ffffff;
-    font-family: 'Futura';
-    line-height:  60px;
+    line-height:  60px; 
+    font-family: kokuryu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -756,15 +812,45 @@ footer p{
   padding-right: 60px;
 }
 
+.kamon p {
+  margin-top: 30px;
+  color: #fff;
+  padding: 0;
+  text-align: left;
+  margin-bottom: auto;
+  display: flex;
+  z-index: 999;
+  position: relative;
+}
+
+.kamon img {
+  width: 150px;
+}
+
+
+
+.kamon-kamon{
+  padding-left: -30px;
+  line-height: 36px;
+  width: 171px;
+  padding: 0;
+}
+
+.access-box {
+  margin-left: 24px;
+}
+
+
+
 .access-wrap {
   display: flex;
   flex-direction: column;
-  padding-left: 60px;
+  padding-left: 20px;
 }
 
 .access-box img {
-  width: 30%;
-  height: 50%;
+  width: 140px;
+  height: 80px;
 }
 
 .access-box-title {
@@ -776,11 +862,11 @@ footer p{
 
 .access-box a {
   display: block;
-  font-size: 18px;
+  font-size: 10px;
   text-align: center;
   background-color: #d3d3d3;
   color: #252424;
-  width: 250px;
+  width: 100px;
   margin: auto;
   border-radius: 80px;
   margin-top: 20px;
@@ -798,15 +884,6 @@ footer p{
         align-items: center;
         font-size: 13px;
     }
-
-    .video-frame p {
-      font-size: 50px;
-      line-height: 36px;
-      width: 500px;
-      padding-top: -100px;
-  
-    }
-
     .video-frame{
       line-height: 0%;
       position: relative;
@@ -817,12 +894,16 @@ footer p{
       text-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
       text-transform: uppercase;
       letter-spacing: 1px;
-      margin: 10px;
+      margin: 5px;
       font-size: 35px;
-      font-weight: 600;
+      font-weight: 20;
       position: absolute;
       top: 20px;
       left: 10px;
+      line-height: 36px;
+      width: 300px;
+      padding-top: -100px;
+  
     }
 
     .second {
@@ -932,7 +1013,10 @@ footer p{
 
 
 
-
+.map{
+  width: 350px;
+  height: 250px;
+}
 
         .googlemap {
         position: relative;
@@ -1030,12 +1114,13 @@ footer p{
 }
 
 .school-frame {
-  width: 0%;
+  width: 70%;
 }
 
 .school-frame p {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
+  width: 30%;
 }
 
 
