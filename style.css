@@ -289,7 +289,7 @@ h3 {
     position: relative;
   }
   
-  .section.section--red {
+  .section{
     background-color: #832827;
   }
 
@@ -706,6 +706,9 @@ footer p{
     animation-name: fuwatAnime;
     visibility: visible !important;
 }
+
+
+
 @-webkit-keyframes fuwatAnime {
 0% { opacity: 0; -webkit-transform: translateY(-20px); }
 100% { opacity: 1; -webkit-transform: translateY(0); }
@@ -1069,11 +1072,16 @@ footer p{
         margin: 0;
     }
 
-
-
+    .kamon-schools {
+      display: flex;
+      padding-left: 30px;
+      float: left;
+  }
+    
 .map{
   width: 350px;
   height: 250px;
+  margin-top: 7vw;
 }
 
         .googlemap {
