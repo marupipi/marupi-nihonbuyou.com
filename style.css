@@ -161,6 +161,7 @@ li a:hover {
   font-family: kokuryu, sans-serif;
   font-weight: 400;
   font-style: normal;
+  z-index: 999;
 }
 
 .type-label{
@@ -187,14 +188,6 @@ li a:hover {
   font-style: normal;
   z-index: 999;
   font-size: 60px;
-}
-
-.type-label1 {
-  writing-mode: vertical-rl;
-  font-size: 50px;
-  font-family: kokuryu, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 /*theme上書き*/
@@ -224,6 +217,8 @@ li a:hover {
     padding-top: 70px;
     padding-bottom: 50px;
     line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
   
 }
 
@@ -255,8 +250,13 @@ h3 {
     display : block;
     line-height: 25px;
     z-index: 999;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
+.intro1-image {
+  position: relative;
+}
 
 .intro1-caption {
     margin-left: 80px;
@@ -376,6 +376,7 @@ h3 {
   }
   .kodougu:nth-child(6) {
     margin-top: 100px;
+    z-index: 999;
   }
   
   .kodougu img {
@@ -389,6 +390,9 @@ h3 {
     font-size: 16px;
     z-index: 999;
     position: relative;
+    font-size: 16px;
+    initial-letter: 10px;
+    letter-spacing: 2px;
   }
   
   .kodougu-label-outer {
@@ -603,14 +607,17 @@ font-size: 30px;
 
 .access-wrap{
   display: flex;
-  justify-content: center;
   margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 80px;
   padding-bottom: 50px;
 }
 
 .access-box{
-  margin-left: 50px;
+  padding-left: 80px;
+  padding-right: 20px;
   z-index: 999;
+  flex-basis: 350px;
 }
 
 .access-box-title{
@@ -621,14 +628,14 @@ font-size: 30px;
 }
 
 .access-box img{
-width: 350px;
-height: 250px;
+width: 110%;
+height: auto;
 }
 
 
-.access-box-text{
+/* .access-box-text{
   margin-bottom: 10px;
-}
+} */
 
 .access-box a {
   display: block;
@@ -640,19 +647,25 @@ height: 250px;
   margin: auto;
   border-radius: 80px;
   margin-top: 20px;
+  margin-right: -23px;
+  padding-left: 20px;
 }
 .access-button {
-    padding: 5px 0;
-    font-weight: 300;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 200;
     font-size: 30px;
+    
 }
 
-.gray{
+.glay{
   background-color: #858c8e;
+  padding-left: 20px;
 }
 
 .schools-access{
   display: flex;
+  padding-top: 3%;
 }
 
 .map{
@@ -733,10 +746,11 @@ footer p{
     
 
     .nav {
-      height: 20px;
+      height: 13px;
       background-color: #252424;
       width: 100%;
       padding-top: 5px;
+      padding-bottom: -10px;
     }
 
     ul{
@@ -781,10 +795,10 @@ footer p{
       color: #ffffff;
       text-align: left;
       display: block;
-      font-size: 12px;
-      line-height: 15px;
+      font-size: 14px;
+      line-height: 13px;
       letter-spacing: 2px;
-      padding: 0;
+      padding: 25px;
       width: 85%;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -797,12 +811,11 @@ footer p{
       color: #fff;
       text-align: left;
       display: block;
-      padding: 20px 0px 20px 0px;
-      padding-top: 20px;
+      padding: 20px;
       width: 85%;
-      font-size: 12px;
-      line-height: 15px;
-      letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 13px;
+      letter-spacing: 2px;
   }
 
   .section-header {
@@ -836,7 +849,7 @@ footer p{
   z-index: 999;
   position: relative;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 13px;
   letter-spacing: 2px;
   width: 113%;
 }
@@ -856,20 +869,28 @@ footer p{
 }
 
 .access-box {
-  margin-left: 24px;
+  margin-left: -105px;
+  padding-left: 113px;
+  padding-right: 20px;
+  z-index: 999;
+  flex-basis: 350px;
 }
 
-
+.access-box:first-child {
+  margin-left: -100px;
+}
 
 .access-wrap {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .access-box img {
-  width: 140px;
-  height: 88px;
+  width: 100%;
+  height: auto;
   
 }
 
@@ -878,6 +899,7 @@ footer p{
   font-size: 12px;
   padding-top: 20px;
   text-align: left;
+  margin-right: -33px;
 }
 
 .access-box a {
@@ -890,8 +912,13 @@ footer p{
   margin: auto;
   border-radius: 80px;
   margin-top: 20px;
+
 }
 
+.schools-access{
+  width: 80vw;
+  padding-left: 20px;
+}
 
     .intoro-box{
         display: block;
@@ -976,7 +1003,8 @@ footer p{
         text-align: left;
         display: block;
         font-size: 12px;
-        line-height: 15px;
+        line-height: 13px;
+        letter-spacing: 2px;
         padding: 0;
         width: 80%;
         padding-top: 20px;
@@ -1013,32 +1041,6 @@ footer p{
           font-style: normal;
         }
         
-        .type-label-outer1 {
-          position: absolute;
-          top: 170vw;
-          left: 18vw;
-          width: 36px;
-          height: 104px;
-          border: 1px solid black;
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          background-color: white;
-          font-family: kokuryu, sans-serif;
-          font-weight: 400;
-          font-style: normal;
-          z-index: 999;
-          font-size: 60px;
-        }
-        
-        .type-label1 {
-          writing-mode: vertical-rl;
-          font-size: 35px;
-          font-family: kokuryu, sans-serif;
-          font-weight: 400;
-          font-style: normal;
-        }
-
 
         .down-box{
         display: none;
@@ -1153,6 +1155,8 @@ footer p{
 .kodougu p {
   margin: 20px 0 0;
   font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 2px;
 }
 
 .kodougu:nth-child(n + 1) {
@@ -1184,8 +1188,8 @@ footer p{
 
 .section-header {
   line-height: 36px;
-  font-size: 23px;
-  width: 171px;
+  font-size: 28px;
+  width: 50%;
   padding: 0;
   border-bottom: 1px solid #D9D9D9;
 }
@@ -1204,14 +1208,14 @@ footer p{
 }
 
 .school-frame {
-  width: 70%;
+  width: 87%;
   padding-top: 45px;
   padding-left: 36px;
 }
 
 .school-frame p {
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
   width: 30%;
 }
 
