@@ -123,7 +123,7 @@ li a:hover {
    display : block;
    line-height: 25px;
    padding: 0px 70px 40px 70px;
-   padding-top: 50px;
+   padding-top: 70px;
    width: 85%;
 }
 
@@ -393,6 +393,7 @@ h3 {
     font-size: 16px;
     initial-letter: 10px;
     letter-spacing: 2px;
+    line-height: 16px;
   }
   
   .kodougu-label-outer {
@@ -555,7 +556,7 @@ h3 {
 }
 
 .school-frame{
-  padding-top: 45px;
+  padding-top: 70px;
   padding-left: 80px;
 }
 
@@ -796,7 +797,7 @@ footer p{
       text-align: left;
       display: block;
       font-size: 14px;
-      line-height: 13px;
+      line-height: 17px;
       letter-spacing: 2px;
       padding: 25px;
       width: 85%;
@@ -814,7 +815,7 @@ footer p{
       padding: 20px;
       width: 85%;
       font-size: 14px;
-      line-height: 13px;
+      line-height: 17px;
       letter-spacing: 2px;
   }
 
@@ -849,7 +850,7 @@ footer p{
   z-index: 999;
   position: relative;
   font-size: 12px;
-  line-height: 13px;
+  line-height: 16px;
   letter-spacing: 2px;
   width: 113%;
 }
@@ -982,7 +983,7 @@ footer p{
         text-align: left;
         display: block;
         font-size: 10px;
-        line-height: 15px;
+        line-height: 16px;
         padding: 0;
         width: 75%;
         padding-top: 50px;
