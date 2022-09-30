@@ -763,10 +763,10 @@ footer p{
     
 
     .nav {
-      height: 13px;
+      height: 23px;
       background-color: #252424;
       width: 100%;
-      padding-top: 5px;
+      padding-top: 0px;
       padding-bottom: -10px;
     }
 
@@ -903,6 +903,7 @@ footer p{
   padding-left: 20px;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 66px;
 }
 
 .access-box img {
